@@ -5,5 +5,7 @@ public class App {
         String inputKehittaja1="";
         System.out.println("Kuka kehittäjistä olet?");
         inputKehittaja1= in.nextLine();
+
+        System.out.println("Hei "+ inputKehittaja1 + ", tervetuloa projektiin!");
     }
 }
