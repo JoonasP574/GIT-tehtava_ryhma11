@@ -7,5 +7,10 @@ public class App {
         inputKehittaja1= in.nextLine();
 
         System.out.println("Hei "+ inputKehittaja1 + ", tervetuloa projektiin!");
+
+        System.out.println("Mikä on lempiharrastuksesi?");
+        String inputHarrastus1= in.nextLine();  
+
+        System.out.println( " Vau, "+ inputHarrastus1 + " kuulostaa mukavalta harrastukselta!");
     }
 }
